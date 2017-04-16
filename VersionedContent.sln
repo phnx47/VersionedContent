@@ -1,9 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "VersionedContent", "VersionedContent\VersionedContent.xproj", "{7C78179C-24A1-4948-B201-2E8CFB4E235A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VersionedContent", "VersionedContent\VersionedContent.csproj", "{7C78179C-24A1-4948-B201-2E8CFB4E235A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample", "Sample\Sample.csproj", "{54A6C898-0878-421B-8559-E35FEEF8BE61}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{73620CA2-ACC4-48DB-973B-D3490ABD0266}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,10 @@ Global
 		{7C78179C-24A1-4948-B201-2E8CFB4E235A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C78179C-24A1-4948-B201-2E8CFB4E235A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C78179C-24A1-4948-B201-2E8CFB4E235A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54A6C898-0878-421B-8559-E35FEEF8BE61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54A6C898-0878-421B-8559-E35FEEF8BE61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54A6C898-0878-421B-8559-E35FEEF8BE61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54A6C898-0878-421B-8559-E35FEEF8BE61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
